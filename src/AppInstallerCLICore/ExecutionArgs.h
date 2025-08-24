@@ -186,6 +186,11 @@ namespace AppInstaller::CLI::Execution
             // Used for demonstration purposes
             ExperimentalArg,
 
+            // New command arguments
+            RecommendCategory, // Category for recommend command
+            BundleName, // Bundle name for bundle command
+            ParallelDownloads, // Number of parallel downloads
+
             // This should always be at the end
             Max
         };

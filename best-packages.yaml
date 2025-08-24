@@ -1,0 +1,69 @@
+# WinGet Best Packages Configuration
+# This file contains curated lists of the best packages for different use cases
+
+essentials:
+  - Microsoft.WindowsTerminal
+  - 7zip.7zip
+  - Microsoft.PowerToys
+  - Notepad++.Notepad++
+  - VideoLAN.VLC
+  - Mozilla.Firefox
+  - Microsoft.VisualStudioCode
+
+developer:
+  - Microsoft.VisualStudioCode
+  - Git.Git
+  - Microsoft.WindowsTerminal
+  - Microsoft.PowerShell
+  - Docker.DockerDesktop
+  - Postman.Postman
+  - NodeJS.NodeJS
+  - Python.Python.3.12
+  - JetBrains.IntelliJIDEA.Community
+  - Microsoft.VisualStudio.2022.Community
+
+productivity:
+  - Notion.Notion
+  - Slack.Slack
+  - Zoom.Zoom
+  - Adobe.Acrobat.Reader.64-bit
+  - Obsidian.Obsidian
+  - Microsoft.Teams
+  - 1Password.1Password
+  - Dropbox.Dropbox
+  - RescueTime.RescueTime
+
+media:
+  - VideoLAN.VLC
+  - Spotify.Spotify
+  - OBSProject.OBSStudio
+  - GIMP.GIMP
+  - Audacity.Audacity
+  - HandBrake.HandBrake
+  - Discord.Discord
+  - Kodi.Kodi
+  - Canva.Canva
+
+gaming:
+  - Valve.Steam
+  - EpicGames.EpicGamesLauncher
+  - Microsoft.XboxApp
+  - Discord.Discord
+  - NVIDIA.GeForceExperience
+  - GOG.Galaxy
+  - Razer.Synapse3
+  - AMD.AMDSoftwareAdrenalinEdition
+  - Twitch.Twitch
+  - Ubisoft.Connect
+
+utility:
+  - 7zip.7zip
+  - Microsoft.PowerToys
+  - WinDirStat.WinDirStat
+  - CCleaner.CCleaner
+  - Notepad++.Notepad++
+  - TreeSize.TreeSize
+  - Sysinternals.ProcessExplorer
+  - Microsoft.Sysinternals.ProcessMonitor
+  - Malwarebytes.Malwarebytes
+  - WinRAR.WinRAR

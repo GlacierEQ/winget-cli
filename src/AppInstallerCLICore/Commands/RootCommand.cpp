@@ -30,6 +30,9 @@
 #include "RepairCommand.h"
 #include "DscCommand.h"
 #include "McpCommand.h"
+#include "RecommendCommand.h"
+#include "BundleCommand.h"
+#include "FastInstallCommand.h"
 
 #include "Resources.h"
 #include "TableOutput.h"
@@ -201,6 +204,9 @@ namespace AppInstaller::CLI
             std::make_unique<FontCommand>(FullName()),
             std::make_unique<DscCommand>(FullName()),
             std::make_unique<McpCommand>(FullName()),
+            std::make_unique<RecommendCommand>(FullName()),
+            std::make_unique<BundleCommand>(FullName()),
+            std::make_unique<FastInstallCommand>(FullName()),
 #if _DEBUG
             std::make_unique<DebugCommand>(FullName()),
 #endif

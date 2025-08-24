@@ -797,6 +797,17 @@ namespace AppInstaller::CLI::Resource
         WINGET_DEFINE_RESOURCE_STRINGID(WinGetResourceUnitThirdPartySourceAssertion);
         WINGET_DEFINE_RESOURCE_STRINGID(WinGetResourceUnitThirdPartySourceAssertionForPackage);
         WINGET_DEFINE_RESOURCE_STRINGID(WordArgumentDescription);
+        
+        // New command resource strings
+        WINGET_DEFINE_RESOURCE_STRINGID(RecommendCommandShortDescription);
+        WINGET_DEFINE_RESOURCE_STRINGID(RecommendCommandLongDescription);
+        WINGET_DEFINE_RESOURCE_STRINGID(RecommendCategoryArgumentDescription);
+        WINGET_DEFINE_RESOURCE_STRINGID(BundleCommandShortDescription);
+        WINGET_DEFINE_RESOURCE_STRINGID(BundleCommandLongDescription);
+        WINGET_DEFINE_RESOURCE_STRINGID(BundleNameArgumentDescription);
+        WINGET_DEFINE_RESOURCE_STRINGID(FastInstallCommandShortDescription);
+        WINGET_DEFINE_RESOURCE_STRINGID(FastInstallCommandLongDescription);
+        WINGET_DEFINE_RESOURCE_STRINGID(ParallelDownloadsArgumentDescription);
     };
 
     // Fixed strings are not localized, but we use a similar system to prevent duplication

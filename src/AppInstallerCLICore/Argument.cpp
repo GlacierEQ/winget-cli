@@ -317,6 +317,14 @@ namespace AppInstaller::CLI
         case Execution::Args::Type::ExperimentalArg:
                 return { type, "arg"_liv };
 
+        // New command arguments
+        case Execution::Args::Type::RecommendCategory:
+            return { type, "category"_liv, 'c' };
+        case Execution::Args::Type::BundleName:
+            return { type, "bundle"_liv, 'b' };
+        case Execution::Args::Type::ParallelDownloads:
+            return { type, "parallel"_liv, 'p' };
+
         default:
             THROW_HR(E_UNEXPECTED);
         }
@@ -472,6 +480,12 @@ namespace AppInstaller::CLI
             return Argument{ type, Resource::String::FontFamilyNameArgumentDescription, ArgumentType::Positional, false };
         case Args::Type::Correlation:
             return Argument{ type, Resource::String::CorrelationArgumentDescription, ArgumentType::Standard, Argument::Visibility::Hidden };
+        case Args::Type::RecommendCategory:
+            return Argument{ type, Resource::String::RecommendCategoryArgumentDescription, ArgumentType::Positional, false };
+        case Args::Type::BundleName:
+            return Argument{ type, Resource::String::BundleNameArgumentDescription, ArgumentType::Positional, false };
+        case Args::Type::ParallelDownloads:
+            return Argument{ type, Resource::String::ParallelDownloadsArgumentDescription, ArgumentType::Standard, false };
         default:
             THROW_HR(E_UNEXPECTED);
         }

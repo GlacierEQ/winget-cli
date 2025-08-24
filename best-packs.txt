@@ -1,0 +1,19 @@
+# Best Windows Packages - Copy & Paste Ready
+
+# 🚀 DEV ESSENTIALS (one-liner)
+winget install Git.Git Microsoft.VisualStudioCode NodeJS.NodeJS Python.Python.3.12 Docker.DockerDesktop --silent --accept-package-agreements --accept-source-agreements
+
+# 🔧 TOOLS (one-liner)  
+winget install 7zip.7zip Microsoft.PowerToys Notepad++.Notepad++ Microsoft.WindowsTerminal --silent --accept-package-agreements --accept-source-agreements
+
+# 🎵 MEDIA (one-liner)
+winget install VideoLAN.VLC OBSProject.OBSStudio Audacity.Audacity GIMP.GIMP --silent --accept-package-agreements --accept-source-agreements
+
+# 🎮 GAMING (one-liner)
+winget install Valve.Steam EpicGames.EpicGamesLauncher Discord.Discord --silent --accept-package-agreements --accept-source-agreements
+
+# 💼 PRODUCTIVITY (one-liner)
+winget install Notion.Notion Slack.Slack Zoom.Zoom 1Password.1Password --silent --accept-package-agreements --accept-source-agreements
+
+# 🌟 EVERYTHING (mega one-liner)
+winget install Git.Git Microsoft.VisualStudioCode NodeJS.NodeJS Python.Python.3.12 Docker.DockerDesktop 7zip.7zip Microsoft.PowerToys Notepad++.Notepad++ Microsoft.WindowsTerminal VideoLAN.VLC OBSProject.OBSStudio Audacity.Audacity GIMP.GIMP Valve.Steam EpicGames.EpicGamesLauncher Discord.Discord Notion.Notion Slack.Slack Zoom.Zoom 1Password.1Password --silent --accept-package-agreements --accept-source-agreements
